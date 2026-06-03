@@ -1,0 +1,61 @@
+<<<<<<< HEAD
+/*
+  Global styles including Tailwind base directives.
+  Each file and major block in the project must include comments
+  explaining the purpose and reasoning for choices.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* design tokens for quick theming */
+  --c-primary: #4f46e5;
+  --c-surface: #ffffff;
+  --c-text: #0f172a;
+}
+
+.dark {
+  --c-surface: #0b1220;
+  --c-text: #e6eef8;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background-color: var(--c-surface);
+  color: var(--c-text);
+}
+=======
+/*
+  Global styles including Tailwind base directives.
+  Each file and major block in the project must include comments
+  explaining the purpose and reasoning for choices.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* design tokens for quick theming */
+  --c-primary: #4f46e5;
+  --c-surface: #ffffff;
+  --c-text: #0f172a;
+}
+
+.dark {
+  --c-surface: #0b1220;
+  --c-text: #e6eef8;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background-color: var(--c-surface);
+  color: var(--c-text);
+}
+>>>>>>> e0a9267de792070e0a727aa26d900288ed444b96

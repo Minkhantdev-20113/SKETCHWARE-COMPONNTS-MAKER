@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+[build]
+  command = "npm install && npm run build"
+  publish = ".next"
+  environment = { NODE_VERSION = "20" }
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+=======
+[build]
+  command = "npm install && npm run build"
+  publish = ".next"
+  environment = { NODE_VERSION = "20" }
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+>>>>>>> e0a9267de792070e0a727aa26d900288ed444b96
